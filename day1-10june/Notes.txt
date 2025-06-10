@@ -1,0 +1,89 @@
+INTRO 
+
+Web development
+
+HTML
+CSS
+Tailwind CSS
+javascript
+React
+Bootstrap X (will not do)
+
+web dev has two parts -- frontend and backend
+
+backend -- logics (connecting database, talks-data insert and read, filters )
+
+frontend -- view, logics(how will things look)
+
+Day 1 
+
+    #block elemnts  -- takes all the width of view port
+    #inline elemnts --  takes only space which we used
+    inline-block elements -- acts as inline but we can apply dimensions to it
+
+    #Table 
+        thead- headings 
+        tbody - content 
+        tfoot - information
+
+    #1st <tr> tag
+        <th> tag to create single heading
+        <td> tag to add data to Table
+
+        #colspan for horizontally merging two cells
+        #rowspan for vertically merging two cells
+
+    #FORMS
+
+        label -- to show what we want to take input
+            for -- to take refrence we pass its id in input
+
+        input -- to take input from user 
+            type -- to tell which kind of data will it accept
+            id -- to pass refrenceto for in label
+            name -- while retrieving data stored through form we will use value passed in name 
+                #NAME IS CASE SENSITIVE 
+
+        Action -- forms storage address
+
+        Method -- two type get and post
+
+
+            GET -- it is default method, get is not secure # data is present in URL(query parameters) data is visible
+
+            POST -- Secured way, data will get stored in formData 
+
+
+    #HTML Semantics
+        header -- Navbar(logo, list)
+
+        body -- content
+            categorisation -- 
+                section tag -- landing page , features, reviews
+
+                division tag -- <div> to divide category like left,right or top,bottom
+
+                SEO rules -- 
+                    Meta Tag -- Information about web page
+                    H1 -- 1 time in a single page
+                    H2 -- 3 to 4 times in a single page
+                    H3 to H6 -- no limit
+
+        footer -- information (links, address, copyright)
+
+
+
+
+    CSS
+        1 Inline CSS - style attribute within the tag
+
+        2 Internal CSS - Headedr me style tag use krke
+
+        3 External CSS - another file (.css) 
+
+        selectors for internal and external CSS --
+            tag/element 
+            Id selectors
+            Class selectors
+            Universal selectors
+    
