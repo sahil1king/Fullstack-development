@@ -86,4 +86,38 @@ Day 1
             Id selectors
             Class selectors
             Universal selectors
+            decendant selectors -any element present in the parent container -
+                                                            #relative-container div{
+                                                                border: solid 2px skyblue;
+                                                            }
+        
+        difference between all three type of CSS is main prefrence is given to inline CSS 
+
+        after Inline CSS we move on to internal and external CSS, prefrence will be given to the one which will be written last.
     
+        the one you want ot be preffered should be written last
+    
+Day 2
+
+
+    Box Model in external CSS
+        dimension
+        border
+        padding
+        margin
+
+        Units
+            Fix-unit -pixels(px)
+            Relative unit - (%, vw, vh, rem)
+                vw and vh is related to viewport
+                % is relative to parent
+        
+    positions
+        relative
+        absolute
+        fixed
+        sticky
+    
+
+    when child element is visible out of the parent element it is known as overflow
+

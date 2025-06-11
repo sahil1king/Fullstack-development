@@ -1,0 +1,9 @@
+div{
+    background-color: lightblue;
+    display: inline-block;
+}
+
+span{
+    background-color: skyblue;
+    height: 100px;
+}

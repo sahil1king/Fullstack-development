@@ -1,0 +1,62 @@
+/* #relative-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+}
+
+#relative-container div{
+    border: solid 2px skyblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+/*child selector
+#relative-container>div{
+    border: solid 2px skyblue;
+}
+    */
+
+/*#relative-container>div:nth-of-type(2){   
+    position: relative;                     indexing is from one
+    background-color: red;
+    top: 32px;     
+    right: 32px;
+    left: 64px;     /*left is preffered here doesn't matter which is given at bottom which works on every other css property and
+                        in between top and bottom it will prefer top
+} */
+
+
+#absolute-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+
+#absolute-container div{
+    border: solid 2px skyblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+
+/*child selector
+#absolute-container>div{
+    border: solid 2px skyblue;
+}
+    */
+
+#absolute-container>div:nth-child(2){   
+    position: absolute;                     /*indexing is from one*/
+    background-color: red;
+    right: 16px;
+}                                           /* in absolute the elements move wrt its recent parent which have a position else body*/
+
+#container{
+    border: solid blue 3px;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
