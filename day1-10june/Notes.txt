@@ -121,3 +121,4 @@ Day 2
 
     when child element is visible out of the parent element it is known as overflow
 
+    In fixed element is fixed on screen element move wrt body (view port)

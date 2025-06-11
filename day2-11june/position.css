@@ -27,7 +27,7 @@
 } */
 
 
-#absolute-container{
+/* #absolute-container{
     border: 2px solid black;
     height: 200px;
     width: 400px;
@@ -48,15 +48,44 @@
 }
     */
 
-#absolute-container>div:nth-child(2){   
-    position: absolute;                     /*indexing is from one*/
+/*#absolute-container>div:nth-child(2){   
+    position: absolute;                     /*indexing is from one
     background-color: red;
     right: 16px;
-}                                           /* in absolute the elements move wrt its recent parent which have a position else body*/
+}                                   in absolute the elements move wrt its recent parent which have a position else body*/
 
-#container{
+/* #container{
     border: solid blue 3px;
     height: 300px;
     width: 500px;
     position: relative;
+} */ 
+
+#fixed-container{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    position: relative;
 }
+
+#fixed-container div{
+    border: solid 2px skyblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+
+/*child selector
+#fixed-container>div{
+    border: solid 2px skyblue;
+}
+    */
+
+#fixed-container>div:nth-child(2){   
+    position: fixed;                     /*indexing is from one*/
+    background-color: red;
+    right: 16px;
+    top: 20px;
+}                                           /* in absolute the elements move wrt its recent parent which have a position else body*/
+
