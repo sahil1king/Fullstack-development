@@ -61,7 +61,7 @@
     position: relative;
 } */ 
 
-#fixed-container{
+/* #fixed-container{
     border: 2px solid black;
     height: 200px;
     width: 400px;
@@ -73,7 +73,7 @@
     height: 100px;
     width: 100px;
     display: inline-block;
-}
+} */
 
 
 /*child selector
@@ -82,10 +82,22 @@
 }
     */
 
-#fixed-container>div:nth-child(2){   
-    position: fixed;                     /*indexing is from one*/
+/* #fixed-container>div:nth-child(2){   
+    position: fixed;                     /*indexing is from one
     background-color: red;
     right: 16px;
     top: 20px;
-}                                           /* in absolute the elements move wrt its recent parent which have a position else body*/
+}      */                                     /*in absolute the elements move wrt its recent parent which have a position else body */
 
+
+
+
+#sticky-container{
+    border: 2px solid black;
+}
+
+#sticky-container>p:nth-child(2){
+    background-color: lightblue;
+    position: sticky;
+    top: 0px;
+}

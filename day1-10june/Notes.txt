@@ -119,6 +119,34 @@ Day 2
         sticky
     
 
-    when child element is visible out of the parent element it is known as overflow
+        when child element is visible out of the parent element it is known as overflow
 
-    In fixed element is fixed on screen element move wrt body (view port)
+        In fixed element is fixed on screen element move wrt body (view port)
+
+        sticky -- it is combination of two properties - absolute and fixed 
+
+    Flex --
+
+        it is applied on container and it handles container's child
+
+        justify content - it aligns the child wrt main axis
+
+            space between, space around, space evenly -- handles extra spce around the main axis
+
+            space between -- arrange all the space between the chids(no space on edges)
+
+            space around -- spread all the space equally around the child
+
+            space evenly -- it spread all the space evenly across main axis
+
+        align items -- aligns the child wrt cross-axis
+
+            center -- at the center
+
+            start --  at the top left 
+            
+            end --  at the bottom left 
+
+        gap -- minimum row and column gap between childs 
+
+        flex-wrap -- doesn't allow to shrink it shifts them to bottom 

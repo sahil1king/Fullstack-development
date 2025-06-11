@@ -1,0 +1,21 @@
+#container{
+    border: 2px solid black;
+    width: 90vw;
+    height: 90vh;
+    padding: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* align-items: start; */
+    /* gap: 10px; */
+    flex-wrap: wrap;
+}
+
+#container>div{
+    border: 2px solid red;
+    width: 75px;
+    height: 75px;
+}
