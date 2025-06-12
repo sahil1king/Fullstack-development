@@ -1,0 +1,26 @@
+#container{
+    display: grid;
+    height: 80vh;
+    width: 80vw;
+    border: 2px solid black;
+    /* grid-template-columns: 20vw 20vw 40vw;  giving values on own */
+    /* grid-template-rows: 20vh 20vh 40vh; */
+    /* grid-template-columns: 1fr 1fr 2fr; dividing parts it will auto calculate */
+    /* grid-template-columns: repeat(3,1fr); first number of colums(3) then size */
+    /* for 3 colums of 1fr and 1 of 2 fr */
+
+    grid-template-columns: repeat(3,1fr) 2fr;  
+    grid-template-rows: repeat(3,1fr) ;
+    
+}
+
+#container>div{
+    border: 2px solid skyblue;
+}
+
+
+#container>div:nth-child(3){
+    background-color: blue;
+    grid-row: 3/4;
+    grid-column: 4/5;
+}

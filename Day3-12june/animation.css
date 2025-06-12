@@ -1,0 +1,41 @@
+h2{
+    background: linear-gradient(45deg,yellow,blue,black,lightblue);
+    background-size: cover;
+}
+
+h2:hover{
+    background-image: url("messi-jersey.jpg"); 
+}
+
+h2:active{
+    background-image: url("groot.webp");
+}
+
+h2:focus{
+    background-image: url();
+}
+
+input{
+    background: linear-gradient(45deg,yellow,blue,black,lightblue);
+}
+
+input:focus{
+    background-image: url("rocket\ racoon.jpg");
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#box:hover{
+    /* transform: rotate(90deg); */
+    /* transform: rotate(5turn); */
+    border-radius: 50%;
+    /* transform: scale(1.5); */
+    transform: translateX(500px);
+    transition-duration: 4s;
+    /* transition-delay: 1s; */
+    transition-timing-function: cubic-bezier(0.34, 0.08, 0.55,0.95);
+}

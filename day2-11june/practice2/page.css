@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+ border: 1px solid black;
+    display: flex;
+    height: 70px;
+    width: 99vw;
+}
+
+#container{
+    
+    display: flex;
+    height: 70px;
+   
+}
+
+#container > img{
+    height: 70px ;
+}
+
+#container > div{
+    display: inline-block;
+    padding: 10px;
+    right: 20px;
+    
+    
+}
+
+#container-2 > div{
+display: inline-block;
+padding: 10px;
+gap: 0px;
+
+}
+
+
+#main-page > img{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+#main-page > h1{
+    position: absolute;
+    color: aqua;
+}
+
+#main-page{
+   position: relative;
+}
