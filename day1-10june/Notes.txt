@@ -150,3 +150,33 @@ Day 2
         gap -- minimum row and column gap between childs 
 
         flex-wrap -- doesn't allow to shrink it shifts them to bottom 
+
+Day 3
+
+        colors - 
+            1. by name
+            2. rgb
+            3. rgba
+            4. hexadecimal
+
+
+            cover
+            container
+            contain
+
+        pseudo selectors --
+            hover
+            active
+            focus
+
+        transition --
+
+            transform -- 
+                change into another(1. rotateX(), rotateY(), rotate() in degrees and radian
+                2. scaleX(), scaleY(), scale() in multiplier means if 2 is given then it will be 2 times
+                3. translateX(200) having +ve and -ve values , +ve values means right and vice-versa ,,,,,,
+                translateY(200px) - it is opposite of X , so +ve means bottom and -ve means upward)
+
+        media query - (responsive design)
+
+Day 4
