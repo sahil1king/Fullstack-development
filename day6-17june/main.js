@@ -27,3 +27,10 @@ console.log(temp)
 //console.log(temp2);    // dead temporal zone (unless it is assigned a value)
 let temp2 = "this is temp 2";
 console.log(temp2);
+
+let arr=[1,2,3,"item 4",true,null,undefined]
+let twodarr=[[1,2,3],[4,5,6]]
+console.log(arr)
+console.log(arr[4])
+console.log(twodarr)
+console.log(twodarr[1][1])
