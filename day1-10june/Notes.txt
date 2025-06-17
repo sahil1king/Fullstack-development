@@ -180,3 +180,28 @@ Day 3
         media query - (responsive design)
 
 Day 4
+    written within the files
+
+Day 5 
+    was Assessment
+
+Day 6
+    javascript
+
+            only coding language in MERN
+            node js is environment jisme java script run karwaenge
+        javascript->1.its a weekly type language
+            2.no need to compile before running(no need to define data type)
+                code compiles line by line(this behaviour is known as syncronous behaviour-ek line run hoge result aaega tab hi next line pe jaega)
+            
+            compiler of js->v8 engine->browser main milta hai
+
+
+        data types - 
+            1. Number
+            2. String 
+            3. Boolean (false values - 0, null, undefine, false)
+            4. Null
+            5. Undefined
+
+        how to define variables --> var, let, const
