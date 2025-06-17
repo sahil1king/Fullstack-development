@@ -205,3 +205,26 @@ Day 6
             5. Undefined
 
         how to define variables --> var, let, const
+
+        let a =10; -- initialise
+
+        let a; -- declare
+
+        let a =20; -- reinitialise
+
+        const a; -- redeclare
+
+        b=5;  -- assign
+
+        b=10 -- reassign
+        
+
+    How to define variables -> var, let , const
+
+                        initialise            declare         reinitialise          redeclare       assign         reassign 
+
+                let         true                true                true                true        true            true
+
+                var         true                 true               false               false       true            true 
+
+                const       true               false                false              false         true           false
