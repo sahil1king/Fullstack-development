@@ -204,22 +204,9 @@ Day 6
             4. Null
             5. Undefined
 
-        how to define variables --> var, let, const
 
-        let a =10; -- initialise
 
-        let a; -- declare
-
-        let a =20; -- reinitialise
-
-        const a; -- redeclare
-
-        b=5;  -- assign
-
-        b=10 -- reassign
-        
-
-    How to define variables -> var, let , const
+        How to define variables -> var, let , const
 
                         initialise            declare         reinitialise          redeclare       assign         reassign 
 
@@ -228,3 +215,14 @@ Day 6
                 var         true                 true               false               false       true            true 
 
                 const       true               false                false              false         true           false
+        
+
+        Scopes -- Global
+                  block - {} 
+
+        
+        Stack -->
+                it works on LIFO method
+            call stack -- execute only one function at a time
+                            read - memory allocation state -- write and allocate memory to it 
+                            code execution state -- it will run line by line and assigns the value to the allocated memory and print it
