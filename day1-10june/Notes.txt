@@ -226,3 +226,26 @@ Day 6
             call stack -- execute only one function at a time
                             read - memory allocation state -- write and allocate memory to it 
                             code execution state -- it will run line by line and assigns the value to the allocated memory and print it
+
+Day 7
+
+        git init -- to initialise git in local device
+                    U -- it means untrack changes
+
+        Staging area -- its a a waiting lobby, so that we can recheck code.
+            git add . -- . is for all files (we can also give a particular file name to upload it only )
+            A -- unsaved files in the staging area
+        
+        git commit -m "#your comment or name of version" 
+
+                OR 
+            other way to do it -- 
+                            press "i" to write
+                            press "esc" to exit writing
+                            type ":wq" to save commit
+
+        git log --
+                    show all your(commits/versions)
+        
+        git switch -- 
+                    
