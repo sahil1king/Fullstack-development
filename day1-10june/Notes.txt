@@ -269,5 +269,11 @@ Day 7
 
                 to upload code on online repo --> git push origin main
 
+                to merge branches --> git merge (name of branch from where to take code from)
+
         git pull --
                 it will keep all the branches up to date with the main branch
+
+        Merge conflicts --
+                when two or more branches are merged and they have different code at same place then it will create a merge conflict you can
+                resolve it like the keep current, keep incoming or keep with prefrence like ehich one is above and which one will come below
