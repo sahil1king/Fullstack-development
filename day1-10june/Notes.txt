@@ -269,4 +269,5 @@ Day 7
 
                 to upload code on online repo --> git push origin main
 
-        
+        git pull --
+                it will keep all the branches up to date with the main branch
