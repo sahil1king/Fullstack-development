@@ -77,4 +77,4 @@
     let res3=func(1,2,3,4)
     console.log(res3)
 
-
+    
