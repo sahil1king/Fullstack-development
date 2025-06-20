@@ -289,3 +289,21 @@ Day 8
         float - 6 
         doubl - 8 
         String - 2
+
+Day 9
+
+    Main js--
+        Methods -- map, filter, reduce and foreach are donein main.js file notes of those are within it
+        Operators -- spread Operator is also on the same file with its notes
+
+
+    Asynchronous js --
+                    Don't wait for result of upper line of code
+                    
+            methods and functions
+                1.setTimeout
+                2.setInterval
+                3.Promises
+                4. async functions
+    
+    Promises -- 
