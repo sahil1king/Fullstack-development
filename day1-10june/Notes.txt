@@ -299,11 +299,11 @@ Day 9
 
     Asynchronous js --
                     Don't wait for result of upper line of code
-                    
+
             methods and functions
                 1.setTimeout
                 2.setInterval
                 3.Promises
                 4. async functions
     
-    Promises -- 
+    Promises -- done in the file itself can look out form there
