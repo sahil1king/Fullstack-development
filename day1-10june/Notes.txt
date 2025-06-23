@@ -307,3 +307,28 @@ Day 9
                 4. async functions
     
     Promises -- done in the file itself can look out form there
+
+
+Day 10
+        DOM--> Document Object Model
+
+    selectors --> 1.getelementsbytagname  -- by the name of the tag
+                  2.getelementsbyClass  -- by the name of class given to tags (will bring all tag which has same class name)
+                  3.getelementsbyid   -- by the id given to the tag which is unique
+                  4.queryselector("")  -- returns first matching single element of the type (tagname, .classname, #id)
+                  5.queryselectorAll("") -- returns all matching element of the type (tagname, .classname, #id)
+
+                  in all of these only queryselector && getelementsbyid returns single element, remaining other elements returns list of elements
+
+    Getters --> 1.InnerText, innerHTML, textContent
+                2. .id, .classname, getattribute()
+    
+                
+    Setters --> 1.innertext --  shows html tags as tag
+                2.innerHTML -- applies the html tags as tag through js
+                3.setattribute("attribute","new value") -- change th value of any attribute
+    
+    push elements in html --
+                            1 .append(push text && element too)
+                            2 .appendchild(push element only)
+                            
