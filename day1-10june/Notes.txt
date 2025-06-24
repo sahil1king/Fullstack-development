@@ -350,3 +350,32 @@ Day 11
 
     did some changes to a page which should not lose its data after refreshing folder -- day10-23june\practice\1.js and then stored it in the
     day 11 folder
+
+    Node JS -- runtime environment for javascript
+
+            Express -- framework build over node.js (has set of rules and of you don't follow page will not work and in library you can bend and has replacement)
+                used for server creation (gives easy syntax)
+
+        npm init OR npm init -y -- initialise the node js environment in the folder with nececessary details or you can just enter 
+
+        npm i -- to install required packages and modules
+
+        npm install express -- to install the required and node modules in one go
+
+        node index.js -- runs the server or we can use nodemon index.js after installing nodemon via npm i -g nodemon
+            nodemon automatically restart the server after we do some changes in the file
+        
+        how backend and frontend works
+
+                        api request
+            frontend --------------------> backend(server) -------------------> database
+            frontend <-------------------- backend(server) <------------------- database  (server performs operation with data and snds to frontend)
+                        response
+
+            types of API request -- get, post, put, patch, delete
+            paths -- "/post", "/", "/contacts", "/all-users"
+
+        Criteria while creating API requests 
+                                            1. type of request
+                                            2. path of request which it will handle
+                                            
