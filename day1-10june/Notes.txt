@@ -314,11 +314,11 @@ Day 10
 
     selectors --> 1.getelementsbytagname  -- by the name of the tag
                   2.getelementsbyClass  -- by the name of class given to tags (will bring all tag which has same class name)
-                  3.getelementsbyid   -- by the id given to the tag which is unique
+                  3.getelementbyid   -- by the id given to the tag which is unique
                   4.queryselector("")  -- returns first matching single element of the type (tagname, .classname, #id)
                   5.queryselectorAll("") -- returns all matching element of the type (tagname, .classname, #id)
 
-                  in all of these only queryselector && getelementsbyid returns single element, remaining other elements returns list of elements
+                  in all of these only queryselector && getelementbyid returns single element, remaining other elements returns list of elements
 
     Getters --> 1.InnerText, innerHTML, textContent
                 2. .id, .classname, getattribute()
@@ -331,4 +331,16 @@ Day 10
     push elements in html --
                             1 .append(push text && element too)
                             2 .appendchild(push element only)
-                            
+
+    Events --> any action performed by a user ono a web page. 
+        example -- click, mousehover, submit, scroll etc.
+        
+    Listeners --> which listen to an event continuosly and performs/ a function when event triggers
+
+        e in the callback function -- event reference stores details relatd to event like event origin,event position etc
+
+        e.target -- tells that which element triggers the event
+
+    evemt bubbling --  the event will propogate from the child to parent if both have same event
+
+            e.stoppropogation() --> use this in child to stop propogation
