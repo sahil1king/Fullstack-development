@@ -25,5 +25,3 @@ function createCard(movies){
         container.append(div)
     });
 }
-
-
