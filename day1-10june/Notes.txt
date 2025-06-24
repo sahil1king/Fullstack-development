@@ -344,3 +344,9 @@ Day 10
     evemt bubbling --  the event will propogate from the child to parent if both have same event
 
             e.stoppropogation() --> use this in child to stop propogation
+
+Day 11
+        localstorge --  storing data in local storage with the help of JS 
+
+    did some changes to a page which should not lose its data after refreshing folder -- day10-23june\practice\1.js and then stored it in the
+    day 11 folder
