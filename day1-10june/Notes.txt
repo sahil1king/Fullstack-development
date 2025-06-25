@@ -378,4 +378,42 @@ Day 11
         Criteria while creating API requests 
                                             1. type of request
                                             2. path of request which it will handle
-                                            
+
+Day 12
+         Middleware -- runs for every/specific request that comes to backend
+                    
+                    
+                two types of Middleware    ---  Generic(for every request) and Path specific(for specific request)
+                    
+                    Generic ---  app.use( ()={   })      
+
+                    Path specific --- app.use("/user",()=>{     })   
+                                1. /user
+                                2. /user/contact
+
+                        will not run in path specific -- /user-details, /data/user 
+        
+            we pass 3 things in Middleware -- app.use( (req,res,next) => {  })
+
+
+        request object keys -- 
+                1. body --> formdata, json data, (secure data ) not available on URL 
+                2. query -->  eg-> localhost:4000/user?name=sahil&emaail=sahil@gmail.com
+
+                        req.query={
+                            name:"shubham",
+                            email : "sahil@gmail.com"
+                        }
+
+                3. params -->  e.g -->  localhost:4000/user/user/1213 /3039         (123 is user id it can be anything whichc comes from frontend)
+
+                            app.get("/user/:id/:rollno",)
+
+                        the id is params here
+
+                        req.params={
+                            id:"123"  
+                            rollno:"3039"                                  can send multiple params
+                        }
+                
+                4. Headers  -->  contains tokens (for authorization).secure   -- not available in URL
