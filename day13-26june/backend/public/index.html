@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="border-2 border-gray-300 p-4 max-w-lg mx-auto mt-10 rounded-lg shadow-xl">
+        <h1 class="flex justify-center text-xl font-bold py-5">TaskMaster</h1>
+        <form id="todo-form">
+            <input class="border-2 border-gray-300 p-2 rounded w-75" type="text" id="todo-input" placeholder="Enter a new todo" required>
+            <button class="bg-green-600 text-white px-4 py-2 rounded active:scale-105 transition-transform" type="submit">Add Task</button>
+        </form>
+
+        <div id="btn_container" class="flex justify-center m-auto gap-2 mt-5">
+        <button id="all" class="bg-gray-300 active:scale-105 transition-transform flex justify-center items-center px-4 py-2 rounded mt-4 inline"> All</button>
+        <button id="active" class="bg-gray-300 active:scale-105 transition-transform flex justify-center items-center px-4 py-2 rounded mt-4"> Active</button>
+        <button id="completed" class="bg-gray-300 active:scale-105 transition-transform flex justify-center items-center px-4 py-2 rounded mt-4"> Completed</button>
+        </div>
+        <div id="container" class="flex flex-col gap-3">
+
+        </div>
+        <div class="flex justify-center items-center">
+        <button id="clear" class="bg-red-600 mt-5 text-white px-4 py-2 rounded active:bg-red-300 active:scale-105 transition-transform">Clear Completed</button>
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
