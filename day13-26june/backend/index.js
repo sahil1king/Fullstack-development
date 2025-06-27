@@ -54,6 +54,24 @@ app.delete("/clear-complete",(req,res)=>{
     res.status(200).json({TODOS})
 })
 
+app.get("/todo/filter",(req,res)=>{
+    const filter=req.query.filter
+    console.log(req.query)
+    if(filter=="active"){
+        const filteredtodos=TODOS.filter((todo)=>{
+            return todo.completed==false
+        })
+        return res.status(200).json({TODOS:filteredtodos})
+    }
+    if(filter=="completed"){
+        const filteredtodos=TODOS.filter((todo)=>{
+            return todo.completed==true
+        })
+        return res.status(200).json({TODOS:filteredtodos})
+    }
+    res.status(200).json({TODOS})
+})
+
 app.listen(PORT,()=>{
     console.log(`server is running on http://localhost:${PORT}`)
 })

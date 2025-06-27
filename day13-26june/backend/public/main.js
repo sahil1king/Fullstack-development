@@ -17,6 +17,15 @@ container.addEventListener("click",async (e)=>{
     }
 })
 
+async function filtertodos(filter) {
+    let res = await axios.get("http://localhost:4000/todo/filter",
+        {params:{
+            filter:filter
+        }
+})
+    rendertodos(res.data.TODOS)
+}
+
 btnConatiner.addEventListener("click", (e) =>{
     if(e.target.id == "active" || e.target.id == "all" || e.target.id == "completed"){
         for(let btn of btnConatiner.children){
@@ -25,6 +34,15 @@ btnConatiner.addEventListener("click", (e) =>{
         };
         e.target.classList.add("bg-green-500");
         e.target.classList.add("text-white");
+    }
+    if(e.target.id=="active"){
+        filtertodos("active")
+    }
+    else if(e.target.id=="completed"){
+        filtertodos("completed")
+    }
+    else if(e.target.id=="all"){
+        filtertodos("all")
     }
 })
 
