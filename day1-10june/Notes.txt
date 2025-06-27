@@ -417,3 +417,31 @@ Day 12
                         }
                 
                 4. Headers  -->  contains tokens (for authorization).secure   -- not available in URL
+
+Day 13
+        work done in the folder as making todo webapp
+
+Day 14 
+
+    leftover from day 13 -- 
+                todo webapp completed with backend
+    
+
+    mongoDB started -- 
+
+                    Dtabase -- storage reset when we reload because data is stored in server's memory so we will use external database
+
+
+                    databases we will use --
+                                1. SQL -- structure format 
+                                          no extra fields can be added
+
+                                2. NoSQL(mongoDB) -- no structure format
+                                                     can add new fields
+
+                                    Mongoose -- used in mongoDB which provides structure to mongoDB,
+                                                provide queries to create, read, update, delete data
+
+                                                CRUD operations -- create, read, update, delete
+
+                                
