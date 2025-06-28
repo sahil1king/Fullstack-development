@@ -439,9 +439,23 @@ Day 14
                                 2. NoSQL(mongoDB) -- no structure format
                                                      can add new fields
 
-                                    Mongoose -- used in mongoDB which provides structure to mongoDB,
+                                    mongoose -- used in mongoDB which provides structure to mongoDB,
                                                 provide queries to create, read, update, delete data
 
                                                 CRUD operations -- create, read, update, delete
 
-                                
+                                    schema (collection) -- in this we create a blueprint, that how a Document will look like in a 
+                                                            collection
+                                        
+                                        mongoose.schema({
+                                                
+                                        })
+                                    
+                                    to add a document in collection -- 
+                                            1.user.create({
+                                                name:"sdfb",
+                                                email:"knkn@gmail.com",
+                                                age:25,
+                                                arr:["sdf","sdf"]
+                                                
+                                            })

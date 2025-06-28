@@ -1,1 +1,0 @@
-mongodb+srv://Lapulga:leosahil2048@cluster0.h9cozkv.mongodb.net/
