@@ -457,5 +457,23 @@ Day 14
                                                 email:"knkn@gmail.com",
                                                 age:25,
                                                 arr:["sdf","sdf"]
-                                                
+
                                             })
+
+Day 15 
+
+            MRC structure -- Model Routes Controllers
+
+                    Model -- schemas & collection
+
+                    Routes -- path of API
+
+                    Controllers -- logics like create user, update & others
+
+            a file is also called a module
+            //module approach --> using export to export functions, methods and models & require to import it in files where we want
+                                to use them
+
+            
+            IMPORTANCE OF MRC structure -->>   gives categorization for every models,routes so that it can be edit easily in future.
+                                               so that every functionality can be easily accessible
