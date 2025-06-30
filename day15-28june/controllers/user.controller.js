@@ -1,25 +1,25 @@
-const User = require("../models/user.model")
+const User = require("../models/user.model");
 
-module.exports.createUser =async (req,res)=>{
+
+module.exports.createUser = async (req,res)=>{
     try {
-        let user = await User.create({
-            name:"Sahil",
-            email:"sahil@gmail.com",
-            password:"123456"
-        })
-        res.status(201).json({user})
+    let {name,email,password} = req.body;
+    let user = await User.create({
+        name:name,
+        email:email,
+        password:password
+    })
+    res.status(201).json({user});
     } catch (error) {
-        res.status(400).json({message:error.message})
+    res.status(400).json({message:error.message})
     }
 }
 
-module.exports.getAllUsers = async(req,res)=>{
+module.exports.getAllUsers = async (req,res) =>{
     try {
-        let users =await User.find()
-        res.status(200).json({users})
+    let users = await User.find();
+    res.status(200).json({users})
     } catch (error) {
-        res.status(400).json({message:error.message})
+    res.status(400).json({message:error.message})
     }
 }
-
-//module.exports= {createUser,getAllUsers}      to export all of them at once 

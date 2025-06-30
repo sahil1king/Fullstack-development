@@ -4,7 +4,7 @@ const { createUser, getAllUsers } = require("../controllers/user.controller")
 const router = express.Router()
 
 
-router.get("/create",createUser)
+router.post("/create",createUser)
 
 router.get("/all",getAllUsers)
 
