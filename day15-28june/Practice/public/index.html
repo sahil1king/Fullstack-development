@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="w-[90vw] shadow-lg p-5 m-auto mt-24 border rounded-md flex flex-col gap-3 bg-white">
+        <h1 class="text-3xl font-semibold text-center">TaskMaster</h1>
+        <form id="todo-form" class="flex w-full justify-center">
+            <input class="w-10/12 border px-2 rounded-md py-1" type="text" required placeholder="Add Task ...">
+            <button class="border bg-green-500 text-white py-1 px-3 rounded-md">Add Task</button>
+        </form>
+        
+        <div id="btn-container" class="flex gap-3 justify-center">
+            <button id="all" class="px-3 py-1 border rounded-md bg-green-500 text-white">All</button>
+            <button id="active" class="px-3 py-1 border rounded-md">Active</button>
+            <button id="completed" class="px-3 py-1 border rounded-md">Completed</button>
+        </div>
+
+        <div id="container" class="flex flex-col gap-3">
+
+        </div>
+
+        <button id="clear" class="px-3 py-1 text-white bg-red-500 m-auto rounded-md">Clear Completed</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
